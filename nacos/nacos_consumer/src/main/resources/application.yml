@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 配置 nacos服务端地址
+        server-addr: 127.0.0.1:8848
+    # 服务名称
+  application:
+    name: nacos-consumer

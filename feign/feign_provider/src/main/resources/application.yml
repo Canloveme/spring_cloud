@@ -1,0 +1,14 @@
+server:
+  port: ${port:8080}
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka
+
+spring:
+  application:
+    name: ${provider-name:feign-provider}

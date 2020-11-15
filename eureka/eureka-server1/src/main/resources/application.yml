@@ -1,0 +1,28 @@
+server:
+  port: ${port:8000}
+#设置端口名，可以通过-Dport=xxx的方式多次启动，prot:8000就是默认8000端口
+
+# 主机名  单机版
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+#  单机版不需要注册自己和抓取
+#    register-with-eureka: false
+#    fetch-registry: false
+
+spring:
+  application:
+    name: ${server-name:eureka-server}
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+    # 集群就需要设置为true，相互注册相互抓取了
+    fetch-registry: true
+    register-with-eureka: true
