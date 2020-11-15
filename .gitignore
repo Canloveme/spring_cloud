@@ -1,0 +1,10 @@
+# Project exclude paths
+/consul/consul-consumer/target/
+/consul/consul-provider/target/
+/eureka/eureka-server1/target/
+/eureka/eureka-server2/target/
+/feign/eureka_server/target/
+/feign/feign_consumer/target/
+/feign/feign_provider/target/
+/nacos/nacos_consumer/target/
+/nacos/nacos_provider/target/

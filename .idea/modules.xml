@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/Hystrix.iml" filepath="$PROJECT_DIR$/Hystrix/Hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul/consul.iml" filepath="$PROJECT_DIR$/consul/consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul/consul-consumer/consul-consumer.iml" filepath="$PROJECT_DIR$/consul/consul-consumer/consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul/consul-provider/consul-provider.iml" filepath="$PROJECT_DIR$/consul/consul-provider/consul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-server2/eureka-server2.iml" filepath="$PROJECT_DIR$/eureka/eureka-server2/eureka-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/feign/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign_consumer/feign_consumer.iml" filepath="$PROJECT_DIR$/feign/feign_consumer/feign_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign_provider/feign_provider.iml" filepath="$PROJECT_DIR$/feign/feign_provider/feign_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/hystrix_nacons_consumer/hystrix_nacons_consumer.iml" filepath="$PROJECT_DIR$/Hystrix/hystrix_nacons_consumer/hystrix_nacons_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/hystrix_nacons_provider/hystrix_nacons_provider.iml" filepath="$PROJECT_DIR$/Hystrix/hystrix_nacons_provider/hystrix_nacons_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/nacos.iml" filepath="$PROJECT_DIR$/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/nacos_consumer/nacos_consumer.iml" filepath="$PROJECT_DIR$/nacos/nacos_consumer/nacos_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/nacos_provider/nacos_provider.iml" filepath="$PROJECT_DIR$/nacos/nacos_provider/nacos_provider.iml" />
+    </modules>
+  </component>
+</project>

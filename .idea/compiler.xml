@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hystrix_nacons_provider" />
+        <module name="hystrix_nacons_consumer" />
+        <module name="feign_provider" />
+        <module name="feign_consumer" />
+        <module name="eureka_server" />
+        <module name="nacos_provider" />
+        <module name="eureka-server2" />
+        <module name="eureka-server1" />
+        <module name="consul-consumer" />
+        <module name="nacos_consumer" />
+        <module name="consul-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="consul" target="8" />
+      <module name="consul-consumer" target="8" />
+      <module name="consul-provider" target="8" />
+      <module name="eureka" target="8" />
+      <module name="eureka-server1" target="8" />
+      <module name="eureka-server2" target="8" />
+      <module name="eureka_server" target="8" />
+      <module name="feign" target="8" />
+      <module name="feign_consumer" target="8" />
+      <module name="feign_provider" target="8" />
+      <module name="Hystrix" target="8" />
+      <module name="hystrix_nacons_consumer" target="8" />
+      <module name="hystrix_nacons_provider" target="8" />
+      <module name="nacos" target="8" />
+      <module name="nacos_consumer" target="8" />
+      <module name="nacos_provider" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
