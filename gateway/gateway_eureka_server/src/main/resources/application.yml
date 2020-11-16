@@ -1,0 +1,19 @@
+# 应用名称
+spring:
+  application:
+    name: gateway-eureka-server
+
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+    # 集群就需要设置为true，相互注册相互抓取了
+    fetch-registry: true
+    register-with-eureka: true
+
+# 端口号
+server:
+  port: ${port:8000}

@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.csq</groupId>
-    <artifactId>gateWay</artifactId>
+    <artifactId>gateway</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>gateway_eureka_server</module>
+        <module>gateway_eureka_provider</module>
+        <module>gateway_eureka_consumer</module>
+        <module>aip_gateway_server</module>
+        <module>gateway_hystrix_monitor</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -26,6 +34,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>2.1.0.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.1.2.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

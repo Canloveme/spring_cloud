@@ -1,0 +1,16 @@
+server:
+  port: ${port:8080}
+
+spring:
+    # 服务名称
+  application:
+    name: gateway-eureka-provider
+
+eureka:
+  instance:
+    ip-address: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8001/eureka,http://127.0.0.1:8002/eureka

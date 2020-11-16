@@ -1,0 +1,24 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: api-gateway-server
+  cloud:
+    # 网关配置
+    gateway:
+      # 路由配置：转发规则
+      routes: #集合。
+        # id: 唯一标识。默认是一个UUID
+        # uri: 转发路径
+        # predicates: 条件,用于请求网关路径的匹配规则
+        - id: gateway-provider
+          uri: http://localhost:9000/
+          predicates:
+            - Path=/gateway/**
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka

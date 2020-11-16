@@ -1,0 +1,19 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+
+spring:
+  application:
+    name: gateway-eureka-consumer
+
+server:
+  port: ${port:9000}
+
+# 开启feign
+feign:
+  httpclient:
+    enabled: true
+
